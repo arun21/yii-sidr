@@ -1,16 +1,14 @@
-yii-sidr
-========
-
+#yii-sidr
 This is a Yii Widget for the Sidr JQuery plugin
 
 This is a Yii Widget for the Sidr JQuery plugin. This plugin enables you to build slide-out menus like JPanel, but for either or both sides of the browser. Also supports touch via the TouchSwipe JQuery plugin.
 Requirements
 
 Yii 1.1 or above
-Usage
 
+##Usage
 Copy to your extensions directory, then use like so:
-
+```php
 $this->widget('ext.yii-sidr.YiiSidr', array(
     'enableTouch'=>false, //optional: enable swipe control on touch devices
     'touchSelector'=>'.body', //optional: swipe selector
@@ -35,8 +33,7 @@ $this->widget('ext.yii-sidr.YiiSidr', array(
         ),
     )
 ));
-
-Resources
-
-    Sidr JQuery plugin (http://www.berriart.com/sidr/)
-    TouchSwipe JQuery plugin (https://github.com/mattbryson/TouchSwipe-Jquery-Plugin)
+```
+##Resources
+* Sidr JQuery plugin (http://www.berriart.com/sidr/)
+* TouchSwipe JQuery plugin (https://github.com/mattbryson/TouchSwipe-Jquery-Plugin)
